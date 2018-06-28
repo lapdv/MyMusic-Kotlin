@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="color_md_amber_A100">#ffffe57f</color>
+    <color name="color_md_amber_900">#FFD1A93D</color>
+    <color name="color_bg_item_genre">#ecffffff</color>
+    <color name="color_md_amber">#FFDA44</color>
 </resources>

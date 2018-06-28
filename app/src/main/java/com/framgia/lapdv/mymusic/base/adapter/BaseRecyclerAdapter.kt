@@ -33,7 +33,7 @@ abstract class BaseRecyclerAdapter<T, VH : BaseViewHolder<T, B>, B : ViewDataBin
 
   abstract fun onCreateRecyclerViewHolder(binding: B, viewType: Int): VH
 
-  override fun getItemCount(): Int = mData?.mData.size ?: 0
+  override fun getItemCount(): Int = mData?.size ?: 0
 
   override fun onBindViewHolder(holder: BaseViewHolder<T, B>, position: Int) {
     if (holder == null) return

@@ -25,10 +25,10 @@ abstract class BaseFragment<T : ViewDataBinding> : Fragment(), View.OnClickListe
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        initView();
+        initView()
     }
 
-    protected fun initView() {
+    open fun initView() {
 
     }
 
@@ -57,5 +57,8 @@ abstract class BaseFragment<T : ViewDataBinding> : Fragment(), View.OnClickListe
 
     protected fun getContainerId(): Int {
         return 0
+    }
+
+    override fun onClick(p0: View?) {
     }
 }

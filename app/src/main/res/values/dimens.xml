@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="dimen_small">10dp</dimen>
+    <dimen name="dimen_normal">10dp</dimen>
+    <dimen name="dimen_large">15dp</dimen>
+    <dimen name="layout_width_30dp">30dp</dimen>
+    <dimen name="layout_width_40dp">40dp</dimen>
+    <dimen name="layout_width_45dp">45dp</dimen>
+    <dimen name="layout_width_50dp">50dp</dimen>
+    <dimen name="layout_height_65dp">65dp</dimen>
+    <dimen name="dp_70">70dp</dimen>
+    <dimen name="default_tba_title_text_size">18sp</dimen>
+
+    <!--text size-->
+    <dimen name="text_size_title">15sp</dimen>
+    <dimen name="text_size_normal">14sp</dimen>
+    <dimen name="text_size_small">8sp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_xlarge">18sp</dimen>
+    <dimen name="item_image_song_width">120dp</dimen>
+    <dimen name="item_image_song_width_100">100dp</dimen>
+    <dimen name="item_image_song_height">140dp</dimen>
+
+
+    <dimen name="element_spacing_x0.75">6dp</dimen>
+    <dimen name="element_spacing_x1.25">10dp</dimen>
+    <dimen name="spacing_small_small">1.0dp</dimen>
+    <dimen name="spacing_small">2.0dp</dimen>
+    <dimen name="spacing_large">8.0dp</dimen>
+
+    <!--element_spacing-->
+    <dimen name="element_spacing_x3">24dp</dimen>
+    <dimen name="element_spacing_x4.5">36dp</dimen>
+    <dimen name="spacing_chvron_right">10dp</dimen>
+    <dimen name="item_radius_genre">5dp</dimen>
+    <dimen name="dimen_radius_2dp">2dp</dimen>
+    <dimen name="layout_width_8dp">8dp</dimen>
+</resources>
