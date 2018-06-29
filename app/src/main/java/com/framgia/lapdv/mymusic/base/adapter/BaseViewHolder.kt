@@ -5,19 +5,20 @@ import android.databinding.ViewDataBinding
 import android.support.v7.widget.RecyclerView
 
 abstract class BaseViewHolder<T, B : ViewDataBinding>(binding: B)
-    : RecyclerView.ViewHolder(binding.root) {
+  : RecyclerView.ViewHolder(binding.root) {
 
-    private var mBinding: B? = null
-    /**
-     * bind view data item adapter
-     */
-    abstract fun binData(data: T, position: Int)
+  protected var mBinding: B? = null
 
-    fun BaseViewHolder(binding: B) {
-        this.mBinding = binding
-    }
+  init {
+    this.mBinding = binding
+  }
 
-    fun getContext(): Context {
-        return itemView.context
-    }
+  /**
+   * bind view data item adapter
+   */
+  abstract fun binData(data: T, position: Int)
+
+  fun getContext(): Context {
+    return itemView.context
+  }
 }

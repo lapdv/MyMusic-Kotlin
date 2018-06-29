@@ -1,6 +1,6 @@
 package com.framgia.lapdv.mymusic.base.mvp
 
-class BasePresenter<V : BaseView> : BaseMvpPresenter<V> {
+open class BasePresenter<V : BaseView> : BaseMvpPresenter<V> {
 
     private var mMvpView: V? = null
 
